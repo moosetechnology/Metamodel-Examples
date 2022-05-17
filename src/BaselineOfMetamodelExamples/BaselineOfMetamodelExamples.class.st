@@ -14,7 +14,7 @@ BaselineOfMetamodelExamples >> baseline: spec [
 		spec
 			package: 'SVN-Metamodel-Entities';
 			package: 'SVN-Metamodel-Generator';
-			package: 'SVNCodeVisionner-Extractors'
+			package: 'SVNCodeVersionner-Extractors'
 			with: [ spec requires: 'PetitParser' ] ]
 ]
 
