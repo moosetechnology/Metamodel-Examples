@@ -8,6 +8,7 @@ Execute this in a playgroung:
 [ Metacello new
    baseline: 'MetamodelExamples';
    repository: 'github://moosetechnology/Metamodel-Examples:main/src';
+   onConflictUseIncoming;
    load ]
    on: Warning do: [ :warning | warning resume ]
 ```
