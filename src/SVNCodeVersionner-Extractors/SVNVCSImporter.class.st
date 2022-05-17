@@ -22,6 +22,15 @@ SVNVCSImporter class >> runOnAFile: aFileName [
 	^ self runOn: aFileName asFileReference contents
 ]
 
+{ #category : #'as yet unclassified' }
+SVNVCSImporter class >> runOnResourceFile: aFileName [
+
+	^ self runOn: (FileLocator workingDirectory
+		   /
+		   'pharo-local/iceberg/moosetechnology/Metamodel-Examples/Resources'
+		   / aFileName) contents
+]
+
 { #category : #accessing }
 SVNVCSImporter >> authors [
 	
