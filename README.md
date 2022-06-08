@@ -69,10 +69,12 @@ We will tag the commits by author.
   - 1 relation query on authors (Q2 in the image)
   - As children of Q2, 10 string queries: name = *Author name*. Where author names are the names of the 10 most active authors.
 
+![SVN 04 - Queries](https://user-images.githubusercontent.com/39184695/172648941-fa9f4849-7619-4cf8-9ce6-4467f8fa5785.png)
+
 #### Intent tags
 
 Open the tag browser and create 10 intent tags, 1 for each author:
-![SVN 04 - Intent tag](https://user-images.githubusercontent.com/39184695/172645407-007bdf85-0f80-4692-8c50-ffc6976062ba.png)
+![SVN 05 - Intent tag](https://user-images.githubusercontent.com/39184695/172645407-007bdf85-0f80-4692-8c50-ffc6976062ba.png)
 
 #### Distribution map
 
@@ -81,4 +83,4 @@ Open the tag browser and create 10 intent tags, 1 for each author:
 - Add the tags you created  
 - Apply  
 
-![SVN 05 - Distribution map](https://user-images.githubusercontent.com/39184695/172647445-bce90dec-a5f3-4c7d-8907-c0bb0c1cdb86.png)
+![SVN 06 - Distribution map](https://user-images.githubusercontent.com/39184695/172647445-bce90dec-a5f3-4c7d-8907-c0bb0c1cdb86.png)
